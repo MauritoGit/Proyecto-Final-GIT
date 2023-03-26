@@ -27,7 +27,7 @@ export default class API extends React.Component {
             <>
             <div class="container pt-5">
                 <div>
-                    <h4 class="pt-4 pb-1 mx-2">Probando Explicacion 3</h4>
+                    <h4 class="pt-4 pb-1 mx-2">Probando Explicación 2</h4>
                     <Link to="/"  className="btn btn-success px-5 mx-2 mt-3 mb-5" style={{color: "white", textDecoration: "none"}}>Volver</Link>
                 </div>
                 {this.state.users.map((users) => (
