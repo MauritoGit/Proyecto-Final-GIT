@@ -3,6 +3,7 @@ import foto from '../img/mifoto.jpg';
 import { Link } from "react-router-dom";
 import './Inicio.css';
 
+
 export default class Inicio extends React.Component {
 
     render() {
@@ -29,25 +30,25 @@ export default class Inicio extends React.Component {
             <div class="d-flex container mt-5" id="row1">
               <div class="text-align-center pt-5" id="contenedor">
                 <h3>Datos Pesonales</h3>
-                <button class="btn btn-dark"><Link to="/datos" className="mx-3" style={{color: "white", textDecoration: "none"}}>Ver</Link></button>
+                <Link to="/datos" className="mx-3 btn btn-dark" style={{color: "white", textDecoration: "none"}}>Ver</Link>
               </div>
               <div class="text-align-center pt-5" id="contenedor">
                 <h3>Estudios</h3>
-                <button class="btn btn-dark"><Link to="/estudios" className="mx-3" style={{color: "white", textDecoration: "none"}}>Ver</Link></button>
+                <Link to="/estudios" className="mx-3 btn btn-dark" style={{color: "white", textDecoration: "none"}}>Ver</Link>
               </div>
               <div class="text-align-center pt-5" id="contenedor">
                 <h3>Experiencia</h3>
-                <button class="btn btn-dark"><Link to="/experiencia" className="mx-3" style={{color: "white", textDecoration: "none"}}>Ver</Link></button>
+                <Link to="/experiencia" className="mx-3 btn btn-dark" style={{color: "white", textDecoration: "none"}}>Ver</Link>
               </div>
             </div>
             <div class="d-flex container mt-1 mt-sm-5" id="row2">
               <div class="text-align-center pt-5" id="contenedor">
                 <h3>Cursos</h3>
-                <button class="btn btn-dark"><Link to="/cursos" className="mx-3" style={{color: "white", textDecoration: "none"}}>Ver</Link></button>
+                <Link to="/cursos" className="mx-3 btn btn-dark" style={{color: "white", textDecoration: "none"}}>Ver</Link>
               </div>
               <div class="text-align-center pt-5" id="contenedor">
                 <h3>Prueba API</h3>
-                <button class="btn btn-dark"><Link to="/apitest" className="mx-3" style={{color: "white", textDecoration: "none"}}>Ver</Link></button>
+                <Link to="/apitest" className="mx-3 btn btn-dark" style={{color: "white", textDecoration: "none"}}>Ver</Link>
               </div>
             </div>
             </>
